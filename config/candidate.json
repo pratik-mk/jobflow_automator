@@ -1,0 +1,30 @@
+{
+  "name": "Pratik Dhoke",
+  "location": "Bangalore, India",
+  "phone": "+91 7709201369",
+  "email": "pratikdhoke13@gmail.com",
+  "linkedin": "linkedin.com/in/pratik-dhoke",
+  "github": "github.com/pratik-mk",
+  "portfolio": "pratik-mk.github.io/portfolio",
+  "roles": [
+    {"key": "epsilon", "company": "Epsilon", "title": "Software Engineer 2", "location": "Bangalore", "dates": "Oct 2023 - Present"},
+    {"key": "deqode", "company": "Deqode Solutions", "title": "Solution Engineer", "location": "Pune", "dates": "May 2021 - Oct 2023"}
+  ],
+  "education": [
+    {"degree": "M.Tech, Computer Science and Engineering", "school": "G.H. Raisoni College of Engineering, Nagpur", "years": "2021 - 2023", "score": "CGPA 9.03/10"},
+    {"degree": "B.E., Computer Science and Engineering", "school": "G.H. Raisoni College of Engineering, Nagpur", "years": "2018 - 2021", "score": "CGPA 8.32/10"}
+  ],
+  "certifications": [
+    "Generative AI Leader - Google Cloud (Jan 2026)",
+    "Java and J2EE - ITNetworkZ Infosystems (2017)"
+  ],
+  "achievements": [
+    "Epsilon Product Engineering Excellence Award, Q1 2025 (Innovate with a Purpose) - for pioneering GenAI capabilities in core CDP workflows",
+    "Speaker - Tech Talk on MCP with GenAI: A First Look, Epsilon (Aug 2025)",
+    "Patent - Smart Weighing Device, IN 202121015434 (2022)",
+    "IEEE publications - No-Code/Low-Code Backend Services and API Development (2023); Healthcare System using Blockchain and AI (2022)",
+    "Book chapter - Algorithm for Intelligent Systems, Machine Learning Methods for Engineering Application Development, Bentham Science (2022)",
+    "Security research - Sony Hall of Fame (2016); acknowledged by Intel and ESET (2017)",
+    "Founding member - GHRCESat nano-satellite program (satellite launched by ISRO)"
+  ]
+}

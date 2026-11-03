@@ -1,0 +1,68 @@
+\documentclass{resume}
+\usepackage[left=0.45in,top=0.4in,right=0.45in,bottom=0.4in]{geometry}
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\hypersetup{pdftitle={\VAR{c.name|e} - Resume}, pdfauthor={\VAR{c.name|e}}}
+
+\name{\VAR{c.name|e}}
+\address{\VAR{c.phone|e} \\ \VAR{c.location|e} \\ \href{mailto:\VAR{c.email}}{\VAR{c.email|e}}}
+\address{\href{https://\VAR{c.linkedin}}{\VAR{c.linkedin|e}} \\ \href{https://\VAR{c.github}}{\VAR{c.github|e}}\BLOCK{if c.portfolio} \\ \href{https://\VAR{c.portfolio}}{\VAR{c.portfolio|e}}\BLOCK{endif}}
+
+\begin{document}
+
+\begin{center}\textbf{\VAR{r.headline|e}}\end{center}
+
+\begin{rSection}{Summary}
+\VAR{r.summary|bold}
+\end{rSection}
+
+\begin{rSection}{Skills}
+\BLOCK{for g in r.skills}
+\textbf{\VAR{g.category|e}:} \VAR{g['items']|e}\\
+\BLOCK{endfor}
+\end{rSection}
+
+\begin{rSection}{Experience}
+\BLOCK{for role in roles}
+\textbf{\VAR{role.title|e}} \hfill \VAR{role.dates|e}\\
+\VAR{role.company|e} \hfill \textit{\VAR{role.location|e}}
+\begin{itemize}
+    \itemsep -3pt {}
+\BLOCK{for b in role.bullets}
+    \item \VAR{b|bold}
+\BLOCK{endfor}
+\end{itemize}
+\BLOCK{endfor}
+\end{rSection}
+
+\begin{rSection}{Projects}
+\BLOCK{for p in r.projects}
+\textbf{\BLOCK{if p.link}\href{\VAR{p.link}}{\VAR{p.name|e}}\BLOCK{else}\VAR{p.name|e}\BLOCK{endif}} \hfill \textit{\VAR{p.year|e}}\\
+\VAR{p.description|bold}\\[3pt]
+\BLOCK{endfor}
+\end{rSection}
+
+\begin{rSection}{Education}
+\BLOCK{for e in c.education}
+\textbf{\VAR{e.degree|e}}, \VAR{e.school|e} \hfill \VAR{e.years|e}\\
+\VAR{e.score|e}\\[2pt]
+\BLOCK{endfor}
+\end{rSection}
+
+\begin{rSection}{Certifications}
+\BLOCK{for x in c.certifications}
+\VAR{x|e}\\
+\BLOCK{endfor}
+\end{rSection}
+
+\begin{rSection}{Achievements and Publications}
+\begin{itemize}
+    \itemsep -3pt {}
+\BLOCK{for a in c.achievements}
+    \item \VAR{a|e}
+\BLOCK{endfor}
+\end{itemize}
+\end{rSection}
+
+\end{document}

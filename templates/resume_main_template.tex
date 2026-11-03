@@ -1,0 +1,163 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Pratik Dhoke} % Your name
+\address{+91 7709201369 \\ Bangalore} 
+\address{\href{mailto:pratikdhoke13@gmail.com}{pratikdhoke13@gmail.com} \\ \href{https://www.linkedin.com/in/pratik-dhoke/}{linkedin.com/in/pratik-dhoke} \\ \href{https://pratik-mk.github.io/portfolio/}{pratik-mk.github.io/portfolio}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% Summary
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SUMMARY}
+
+Results-driven Full-Stack Software Engineer with \textbf{5+ years} of experience architecting end-to-end enterprise web applications, scalable backends, and AI-powered workflows. Expert in modern JavaScript frameworks (React, Next.js, Node.js) paired with cloud infrastructure (AWS) and robust database management. Demonstrated versatility and deep technical curiosity through peer-reviewed IEEE publications, founding an ISRO-launched nano-satellite project, and acknowledged security research (Sony, Intel).
+
+\end{rSection} 
+
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Software Engineer 2} \hfill Oct 2023 - Present\\
+Epsilon \hfill \textit{Bangalore}
+
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item \textbf{Data Architecture:} Designed an API orchestration layer streaming from \textbf{Databricks Delta} to \textbf{PostgreSQL}, reducing data retrieval latency from 10 minutes to <5 seconds (\textbf{$\sim$95\% improvement}) for CDP audience workflows.
+    \item \textbf{GenAI Tooling:} Engineered a GenAI copilot using a \textbf{RAG pipeline and LangChain} to translate natural language into optimized SQL, reducing manual data aggregation time by \textbf{40\%}.
+    \item \textbf{Cloud Infrastructure:} Architected the segregation of control and data planes for active-active multi-region deployment and built a cloud-agnostic abstraction layer to eliminate vendor lock-in.
+    \item \textbf{Developer Productivity:} Developed a centralized \textbf{Model Context Protocol (MCP)} server integrating with developer IDEs, piloting Amazon Q and driving a \textbf{20\%} engineering productivity gain.
+    \item \textbf{Campaign Optimization:} Built scheduled profiling jobs to identify low-cardinality attributes, exposing metadata via Java REST APIs to improve campaign targeting accuracy by \textbf{60\%}.
+\end{itemize}
+ 
+\textbf{Solution Engineer} \hfill May 2021 - Oct 2023\\
+Deqode Solutions \hfill \textit{Pune}
+
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item \textbf{Web3 \& DeFi Development:} Built smart contract integrations and Web3 marketplace features using \textbf{React} and \textbf{Web3.js}. Designed a credit score and KYC system supporting \textbf{\$500K+} in uncollateralized decentralized loans.
+    \item \textbf{Enterprise Architecture:} Engineered a modular, white-label micro-frontend architecture for healthcare clients, reducing new feature deployment time by \textbf{40\%}.
+    \item \textbf{Performance Optimization:} Developed a scalable UI and \textbf{Redux} state management system for an enterprise LMS platform, reducing application latency by \textbf{$\sim$35\%}.
+\end{itemize}
+
+\end{rSection} 
+
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Frontend & React.js, Next.js, Angular, React Native, TypeScript, Redux\\
+Backend \& Data & Node.js, NestJS, Python, Java, PostgreSQL, MongoDB, Databricks, Kafka\\
+Cloud \& DevOps & AWS (Lambda, S3, Bedrock, Aurora), GCP, Docker, Terraform, Jenkins\\
+AI \& Web3 & GenAI, RAG, LangChain, MCP, Agentic AI, Blockchain, Smart Contracts\\
+\end{tabular}\\
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% PROJECTS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{FEATURED PROJECTS}
+\vspace{-1.25em}
+
+\item \textbf{\href{https://github.com/pratik-mk/no-code-backend-service}{No-Code Backend Service}} \hfill \textit{2023} \\
+{Identified a bottleneck in API development and engineered a platform enabling non-technical users to visually construct backend services. Developed a dynamic routing and parsing engine in \textbf{Node.js} that translates drag-and-drop UI configurations into production-ready REST endpoints, eliminating developer dependency for simple CRUD operations.}
+
+\item \textbf{\href{https://github.com/pratik-mk/Decense}{Decentralized Stock Exchange}} \hfill \textit{2022} \\
+{Designed and built a transparent decentralized exchange (DEX) on the \textbf{Solana blockchain} using a \textbf{React.js} frontend and \textbf{Node.js} backend to democratize access to capital markets for retail investors.}
+
+\item \textbf{\href{https://github.com/pratik-mk/HealthX}{Healthcare Data System using Blockchain \& AI}} \hfill \textit{2021} \\
+{Developed a cryptocurrency (\textbf{ERC-20 on Ethereum}) for the healthcare industry and created a secure portal utilizing \textbf{Python-based ML} for disease detection via image classification.}
+
+\end{rSection} 
+
+
+%----------------------------------------------------------------------------------------
+% PUBLICATIONS & PATENTS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PUBLICATIONS \& PATENTS} 
+
+\begin{itemize}
+    \itemsep -3pt {} 
+    
+    \item \textbf{Smart Weighing Device} \hfill \textit{Oct 2022} \\
+    \textit{Patent} \\
+    IN 202121015434
+
+    \item \textbf{\href{https://ieeexplore.ieee.org/abstract/document/10306945/}{Evaluating the Impact of No-Code/Low-Code Backend Services on API Development}} \hfill \textit{2023} \\
+    \textit{IEEE} \\
+    Published research analyzing the efficiency and implementation of visual backend generators.
+
+    \item \textbf{\href{https://ieeexplore.ieee.org/document/9697213}{Design and Development of Healthcare System using Blockchain and Artificial Intelligence}} \hfill \textit{Feb 2022} \\
+    \textit{IEEE} \\
+    Published research on securing healthcare data through decentralized ledgers and AI.
+
+    \item \textbf{\href{https://www.eurekaselect.com/chapter/18162}{Machine Learning Methods for Eng. Application Dev — Ch. 2}} \hfill \textit{2022} \\
+    \textit{Bentham Science Books} \\
+    Authored Chapter 2: Algorithm for Intelligent Systems.
+
+\end{itemize}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% AWARDS & RECOGNITION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{AWARDS \& RECOGNITION} 
+
+\begin{itemize}
+    \itemsep -3pt {} 
+    
+    \item \textbf{Generative AI Leader} \hfill \textit{Jan 2026} \\
+    \textit{Google Cloud} \\
+    Credential ID: \href{https://www.credly.com/badges/3b94641d-b323-4f5b-b511-b36f286d6a5d}{53a0bab09fed4d72ac05b01b859fbbbe}
+
+    \item \textbf{Quarterly Q1 Product Engineering Excellence Recognition} \hfill \textit{June 2025} \\
+    \textit{Epsilon} \\
+    Awarded "Innovate with a Purpose" for pioneering GenAI capabilities that enhanced core CDP workflows.
+
+    \item \textbf{Tech Talk on MCP with Gen AI - A First Look} \hfill \textit{Aug 2025} \\
+    \textit{Epsilon} \\
+    Delivered an internal session on Model Context Protocol (MCP), sharing first-look insights to the engineering organization.
+
+    \item \textbf{Founding Member - GHRCESat (Nano-Satellite)} \hfill \textit{2021} \\
+    \textit{ISRO (Indian Space Research Organisation)} \\
+    Core member of the founding team that successfully designed, developed, and launched the college’s inaugural nano-satellite.
+
+    \item \textbf{Sony Hall of Fame} \hfill \textit{Dec 2016} \\
+    \textit{Sony} \\
+    Listed in Sony's Hall of Thanks for responsibly disclosing a critical web application vulnerability (\href{https://secure.sony.net/hallofthanks}{View Record}).
+
+    \item \textbf{Security Acknowledgements} \hfill \textit{Feb - Mar 2017} \\
+    \textit{Intel \& ESET} \\
+    Acknowledged for responsibly reporting web application vulnerabilities through their respective bug bounty programs.
+
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EDUCATION}
+
+{\bf M.Tech in Computer Science}, G.H. Raisoni College of Engineering \hfill {2021 - 2023}\\
+CGPA: 9.03
+
+{\bf B.E in Computer Science}, G.H. Raisoni College of Engineering \hfill {2018 - 2021}\\
+CGPA: 8.32
+
+\end{rSection}
+
+\end{document}

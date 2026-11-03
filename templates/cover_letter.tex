@@ -1,0 +1,31 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=0.9in,right=0.9in,top=0.8in,bottom=0.8in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{9pt}
+\pagestyle{empty}
+
+\begin{document}
+
+{\LARGE\textbf{\VAR{c.name|e}}}\\[3pt]
+\VAR{c.phone|e} \;|\; \href{mailto:\VAR{c.email}}{\VAR{c.email|e}} \;|\; \href{https://\VAR{c.linkedin}}{\VAR{c.linkedin|e}} \;|\; \VAR{c.location|e}
+
+\vspace{6pt}
+\VAR{date|e}
+
+\textbf{\VAR{company|e}}\\
+Re: \VAR{role|e}
+
+\VAR{greeting|e}
+
+\BLOCK{for p in paragraphs}
+\VAR{p|e}
+
+\BLOCK{endfor}
+\VAR{closing|e}\\
+\VAR{c.name|e}
+
+\end{document}

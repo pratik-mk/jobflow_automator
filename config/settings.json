@@ -1,0 +1,127 @@
+{
+  "sources": {
+    "jobspy": {
+      "enabled": true,
+      "terms": [
+        "Full Stack Engineer",
+        "Senior Software Engineer React Node",
+        "GenAI Engineer",
+        "Java",
+        "Python",
+        "Software Engineer"
+      ],
+      "location": "Bangalore",
+      "country_indeed": "India",
+      "sites": [
+        "linkedin",
+        "naukri",
+        "glassdoor",
+        "indeed",
+        "google"
+      ],
+      "results_wanted": 30,
+      "job_type": "fulltime",
+      "remote_only": false
+    },
+    "company_boards": {
+      "enabled": true,
+      "locations": ["bangalore", "bengaluru", "india"],
+      "max_age_days": 14,
+      "max_per_company": 8,
+      "workday_search_terms": ["software engineer", "full stack", "developer"],
+      "workday": [
+        {"company": "NVIDIA", "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"},
+        {"company": "Salesforce", "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site"},
+        {"company": "Adobe", "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced"},
+        {"company": "Intel", "url": "https://intel.wd1.myworkdayjobs.com/External"},
+        {"company": "Target", "url": "https://target.wd5.myworkdayjobs.com/targetcareers"},
+        {"company": "Mastercard", "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers"},
+        {"company": "PayPal", "url": "https://paypal.wd1.myworkdayjobs.com/jobs"},
+        {"company": "HP", "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite"},
+        {"company": "Morgan Stanley", "url": "https://ms.wd5.myworkdayjobs.com/External"},
+        {"company": "Equinix", "url": "https://equinix.wd1.myworkdayjobs.com/External"}
+      ],
+      "greenhouse": {
+        "stripe": "Stripe", "databricks": "Databricks", "coinbase": "Coinbase", "airbnb": "Airbnb",
+        "okta": "Okta", "mongodb": "MongoDB", "datadog": "Datadog", "gitlab": "GitLab", "rubrik": "Rubrik",
+        "elastic": "Elastic", "zscaler": "Zscaler", "twilio": "Twilio", "samsara": "Samsara",
+        "razorpaysoftwareprivatelimited": "Razorpay"
+      },
+      "lever": {"zeta": "Zeta", "cred": "CRED", "paytm": "Paytm", "jumpcloud": "JumpCloud"},
+      "ashby": {"openai": "OpenAI", "notion": "Notion", "snowflake": "Snowflake", "sarvam": "Sarvam AI"}
+    }
+  },
+  "search": {
+    "posted_within_hours": 72
+  },
+  "filters": {
+    "include_title_keywords": [
+      "full stack",
+      "fullstack",
+      "full-stack",
+      "software engineer",
+      "software developer",
+      "sde",
+      "backend",
+      "frontend",
+      "react",
+      "node",
+      "genai",
+      "ai engineer",
+      "java",
+      "python",
+      "angular"
+    ],
+    "exclude_title_keywords": [
+      "sales",
+      "marketing",
+      "manager",
+      "intern",
+      "principal",
+      "director",
+      "recruiter",
+      "hr",
+      "accountant",
+      "financial"
+    ],
+    "min_description_chars": 500,
+    "max_per_company": 2
+  },
+  "rating": {
+    "min_fit_score": 70,
+    "min_company_rating": 60,
+    "company_types": [
+      "product",
+      "startup",
+      "mnc",
+      "big_tech",
+      "fintech",
+      "consulting",
+      "it_services",
+      "staffing"
+    ],
+    "allowed_company_types": [
+      "product",
+      "startup",
+      "mnc",
+      "big_tech",
+      "fintech"
+    ],
+    "work_modes": [
+      "any",
+      "remote",
+      "hybrid",
+      "onsite"
+    ],
+    "work_mode": "any",
+    "batch_size": 5,
+    "max_jobs_per_run": 40
+  },
+  "resume": {
+    "max_per_run": 10,
+    "tailoring_mode": "flexible"
+  },
+  "llm": {
+    "model": "composer-2.5"
+  }
+}

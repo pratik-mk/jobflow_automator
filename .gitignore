@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.env
+config/credentials*.json
+output/*
+!output/.gitkeep
+.agent_sandbox/
+data/
+logs/
+.agents/skills/developing-with-streamlit
+.DS_Store
